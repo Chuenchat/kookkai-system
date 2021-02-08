@@ -1,0 +1,28 @@
+{
+  "name": "system-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/bleno": "^0.5.1-2",
+    "@abandonware/i2c": "^0.2.4-3",
+    "child-process-promise": "^2.2.1",
+    "i2c-bus": "^5.2.1",
+    "lodash": "^4.17.20",
+    "mqtt": "^4.2.5",
+    "onoff": "^6.0.1",
+    "raspi-i2c": "^6.2.4",
+    "rpi-gpio": "^2.1.7",
+    "rpio": "^2.2.0",
+    "rxjs": "^6.6.3",
+    "rxjs-compat": "^6.6.3",
+    "serialport": "^9.0.2",
+    "socket.io": "^3.0.1",
+    "socket.io-client": "^2.4.0"
+  }
+}
